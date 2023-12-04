@@ -251,6 +251,7 @@ ol {
   line-height: 1.28;
   letter-spacing: -0.28px;
   text-transform: uppercase;
+  width: calc((100% - 96px) / 4);
 }
 
 .ingridients-item:nth-child(even) {
@@ -351,11 +352,11 @@ ol {
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 18px;
   row-gap: 24px;
+  justify-content: space-between;
 }
 .products-item {
-  padding: 32px 19px;
+  padding: 32px 20px;
   border-radius: 15px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   background: #fff;
@@ -367,6 +368,7 @@ ol {
 }
 
 .products-img {
+  margin: 0 auto;
 }
 .products-subtitle {
 }
