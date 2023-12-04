@@ -369,11 +369,25 @@ ol {
 
 .products-img {
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 .products-subtitle {
+  color: var(--black, #111);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
 }
 .products-text {
   margin-bottom: 18px;
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: -0.24px;
 }
 .products-btn {
   text-align: center;
@@ -423,7 +437,7 @@ ol {
 }
 .bestsellers-text {
   text-align: center;
-  padding: 18px 0;
+  padding: 28px 0;
   color: var(--black, #111);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Montserrat;
