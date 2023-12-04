@@ -410,7 +410,7 @@ ol {
 }
 .bestsellers-list {
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
 }
 .bestsellers-item {
   border-radius: 0px 0px 15px 15px;
@@ -544,6 +544,7 @@ ol {
 }
 .footer-container-main {
   display: flex;
+  align-items: center;
 }
 
 .footer-text {
