@@ -215,9 +215,12 @@ ol {
   padding: 120px 0;
 }
 .ingridients-title {
+  width: 412px;
   margin-bottom: 50px;
   color: var(--black, #111);
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Montserrat;
   font-size: 24px;
@@ -475,17 +478,24 @@ ol {
   text-align: center;
 }
 
-.reviews-container {
+/* .reviews-container {
+  padding: 24px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+} */
+.reviews-item {
+  /* justify-content: space-between; */
+  width: calc((100% - 56px) / 3);
   padding: 24px;
   border-radius: 15px;
   background-color: #fff;
   border: 1px solid rgba(17, 17, 17, 0.1);
 }
-.reviews-item {
-  width: calc((100% - 28px) / 3);
-}
 .reviews-img {
   margin: 0 auto;
+  margin-top: -65px;
+  margin-bottom: 18px;
 }
 .reviews-subtitle {
   margin-bottom: 24px;
